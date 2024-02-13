@@ -13,8 +13,15 @@ public class Feb13PartitioningExercise {
         int pivotElement = arr[midIndex];
         int i = 0;
         int j = n - 2;
-
         // FILL IN CODE
+
+        // "Swap pivot out of the way" - swap pivot with the last element
+        // Repeat until i and j overlap:
+            // Repeat: Advance i if arr[i] < pivot
+            // Repeat: Decrement j if arr[j] >= pivot
+            // If i and j did not overlap, swap elements at i and j
+        // Once i and j overlapped, swap the element at index i with the pivot
+
     }
 
     public static void main(String[] args) {
